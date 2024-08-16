@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #000;
+}
+
+.container {
+    background-color: #313131;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+}
+
+.avatar {
+    border-radius: 100px;
+}
+
+.container>h1 {
+    font-size: 30px;
+}
+
+.container>h2 {
+    color: #c3d789;
+}
+
+/* .cardSection-links {
+    display: flex;
+} */
+
+a {
+    background-color: pink;
+    font-size: 50px;
+    /*Remove the underlines*/
+    text-decoration: none;
+}
